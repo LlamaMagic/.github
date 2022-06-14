@@ -1,0 +1,34 @@
+name: Feature Request
+description: Have a new idea? Tell us more.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: game-version
+    attributes:
+      label: Game Version
+      description: Which version of the game are you playing?
+      options:
+        - Global
+        - China
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description
+      description: What should the new feature do? Include any relevant gameplay resources (e.g., starting quest, guides, etc).
+      placeholder: Share your dream with us.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Other Information
+      options:
+        - label: This issue is a feature request, not a bug or question.
+          required: true
+        - label: RebornBuddy and all add-ons have been updated to latest.
+          required: true
+        - label: No identifying information (e.g., character name) is being submitted.
+          required: true
