@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Live Chat via Discord
+    url: https://discord.gg/bmgCq39
+    about: "Want to discuss this add-on? Visit our Discord server."
+  - name: RebornBuddy Customer Support
+    url: http://support.thebuddyforum.com/anonymous_requests/new
+    about: "Problem with keys or accounts? Visit RebornBuddy's ZenDesk."
+  - name: BuddyAuth Session Management
+    url: https://eu.buddyauth.com/User/Sessions
+    about: "Max Sessions? Wait 15 minutes or end ghost sessions on BuddyAuth."
