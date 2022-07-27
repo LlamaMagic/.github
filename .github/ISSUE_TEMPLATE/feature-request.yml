@@ -1,6 +1,5 @@
 name: Feature Request
 description: Have a new idea? Tell us more.
-title: "[Feature]: "
 labels: ["enhancement"]
 body:
   - type: dropdown
